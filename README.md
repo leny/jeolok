@@ -1,6 +1,6 @@
 # jeolok
 
-![NPM version](http://img.shields.io/npm/v/jeolok.svg) ![Build Status](http://img.shields.io/travis/leny/jeolok.svg) ![Dependency Status](https://david-dm.org/leny/jeolok.svg) ![Downloads counter](http://img.shields.io/npm/dm/jeolok.svg) [![Bower package version](https://badge.fury.io/bo/jeolok.svg)](http://badge.fury.io/bo/jeolok)
+![NPM version](http://img.shields.io/npm/v/jeolok.svg) ![Downloads counter](http://img.shields.io/npm/dm/jeolok.svg) [![Bower package version](https://badge.fury.io/bo/jeolok.svg)](http://badge.fury.io/bo/jeolok)
 
 > Improved navigator.geolocation, with better callbacks and new stuffs.
 
