@@ -2,7 +2,9 @@
   "name": "jeolok",
   "version": "0.0.1",
   "description": "Improved navigator.geolocation, with better callbacks and new stuffs.",
-  "keywords": [],
+  "keywords": [
+    "gps", "coordinates", "position", "navigator.geolocation", "geolocation", "wrapper"
+  ],
   "homepage": "https://github.com/leny/jeolok",
   "author": {
     "name": "leny",
