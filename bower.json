@@ -1,0 +1,21 @@
+{
+  "name": "jeolok",
+  "homepage": "https://github.com/leny/jeolok",
+  "authors": [
+    "leny <info@flatland.be>"
+  ],
+  "description": "Improved navigator.geolocation, with better callbacks and new stuffs.",
+  "main": "lib/jeolok.js",
+  "moduleType": [ "node" ],
+  "keywords": [
+    "gps", "coordinates", "position", "navigator.geolocation", "geolocation", "wrapper"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "src",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.coffee"
+  ]
+}
