@@ -42,6 +42,12 @@ module.exports = ( grunt ) ->
                 ext: ".js"
                 options:
                     bare: yes
+        uglify:
+            options:
+                sourceMap: yes
+            lib:
+                files:
+                    "lib/jeolok.min.js": "lib/jeolok.js"
         watch:
             lib:
                 files: "src/**/*.coffee"
@@ -50,7 +56,7 @@ module.exports = ( grunt ) ->
                     "coffee"
                 ]
 
-    grunt.loadNpmTasks "grunt-contrib-nodeunit"
+    grunt.loadNpmTasks "grunt-contrib-uglify"
     grunt.loadNpmTasks "grunt-contrib-watch"
     grunt.loadNpmTasks "grunt-contrib-coffee"
     grunt.loadNpmTasks "grunt-coffeelint"
@@ -58,6 +64,7 @@ module.exports = ( grunt ) ->
     grunt.registerTask "default", [
         "coffeelint"
         "coffee"
+        "uglify"
     ]
 
     grunt.registerTask "work", [
