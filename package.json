@@ -1,6 +1,6 @@
 {
   "name": "jeolok",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Improved navigator.geolocation, with better callbacks and new stuffs.",
   "keywords": [
     "gps", "coordinates", "position", "navigator.geolocation", "geolocation", "wrapper"
